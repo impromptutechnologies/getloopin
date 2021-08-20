@@ -214,6 +214,7 @@ app.post("/auth/claim", async (req, res) => {
       timeStart: timeStart,
     });
     const percentilel = percentile(70, outcome[0].scores);
+    console.log(outcome[0].scores, percentilel)
     if (bet.status == "done") {
       console.log(percentilel, bet.totalScore, bet.status)
       if (bet.totalScore > percentilel) {
