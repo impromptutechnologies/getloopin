@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "startwork": "node src/worker.js",
-    "dev": "nodemon src/app.js -e js,hbs",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
   "author": "",

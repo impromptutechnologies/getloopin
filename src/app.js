@@ -7,7 +7,6 @@ const hbs = require("hbs");
 const session = require("cookie-session");
 var flash = require("connect-flash");
 
-require("./db/mongoose");
 require("dotenv").config();
 
 const app = express();
