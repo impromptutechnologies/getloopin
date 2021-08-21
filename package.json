@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@callofduty/api": "^1.3.5",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "call-of-duty-api": "^2.0.1-dev",
