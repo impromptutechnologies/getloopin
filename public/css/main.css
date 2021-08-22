@@ -107,7 +107,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3505,6 +3505,7 @@ input, select, textarea {
 
 			#banner > .inner header {
 				width: auto;
+				margin-top:15%
 			}
 
 				#banner > .inner header > :first-child {
@@ -3653,6 +3654,7 @@ input, select, textarea {
 
 	#main {
 		background-color: #2a2f4a;
+		margin-top:20%
 	}
 
 		#main > * {
