@@ -70,6 +70,9 @@ app.get("/join", (req, res) => {
   });
 });
 
+app.get("/loaderio-912d184f4d9c4515ada4fe68219588db", (req, res) => {
+  res.send("loaderio-912d184f4d9c4515ada4fe68219588db");
+});
 
 app.get("*", (req, res) => {
   res.render("404", {
