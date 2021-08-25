@@ -3642,7 +3642,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 0 2em 0 ;
+				padding: 3em 0 2em 0 ;
 			}
 
 				#banner > .inner .content p br {
@@ -3650,7 +3650,7 @@ input, select, textarea {
 				}
 
 				#banner.major {
-					padding: 8em 0 4em 0 ;
+					padding: 8em 0 0em 0 ;
 				}
 
 		}
@@ -3658,8 +3658,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-top:20%;
-		padding-left: 10%;
+		margin-top:5%;
+		padding-left: 6%;
 		padding-right: 10%;
 		background: black;
 	}
@@ -3684,6 +3684,9 @@ input, select, textarea {
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
+					}
+					#banner.major {
+						padding: 8em 0 5em 0 ;
 					}
 
 				}
@@ -3800,6 +3803,9 @@ input, select, textarea {
 			}
 
 	@media screen and (max-width: 480px) {
+		#banner.major {
+			padding: 8em 0 0em 0 ;
+		}
 
 		#footer .copyright li {
 			display: block;
@@ -3807,6 +3813,14 @@ input, select, textarea {
 			margin-left: 0;
 			padding-left: 0;
 			line-height: inherit;
+		}
+		#banner h1 {
+			font-size: 1.3em;
+			color: #f8f8ff
+		}
+		#main {
+			padding-left:0;
+			padding-right:0
 		}
 
 	}
@@ -4025,10 +4039,11 @@ input, select, textarea {
 		.info-box{
 			width:50%;
 			margin-left:35px;
-			padding:30px;
-			border: 6px solid white;
+			padding:20px;
+			/*border: 1px solid white;*/
     border-radius: 30px;
 	text-align: center;
+	background-color: #212121;
 	
 		}
 		#imgmob{
@@ -4055,3 +4070,6 @@ input, select, textarea {
 				display:block
 			}
 		}
+
+
+
