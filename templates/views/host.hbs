@@ -1,207 +1,244 @@
 <html>
   <head>
-    <title>Loopin</title>
     <meta charset="utf-8" />
+    <title>Loopin</title>
+    <meta
+      name="title"
+      content="Loopin"
+    />
+    <meta
+      name="description"
+      content="Loopin"
+    />
+    <link rel="image_src" href="/images/notify_better_image.png" />
+
+    <link rel="shortcut icon" id="favicon" href="favicon.png" />
+    <meta name="author" content="Pete R." />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+     <link
+      href="/css/mainmain.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Pacifico:400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.9.1.js"
+    ></script>
+    <script type="text/javascript" src="/js/jquery.onepage-scroll.js"></script>
+    <link href="/css/onepage-scroll.css" rel="stylesheet" type="text/css" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no"
     />
-    <link rel="stylesheet" href="/css/main.css" />
-    <noscript><link rel="stylesheet" href="/css/noscript.css" /></noscript>
+   
+    <script>
+      $(document).ready(function(){ $(".main").onepage_scroll({
+      sectionContainer: "section", responsiveFallback: 600, loop: true }); });
+
+    </script>
     <link
       href="http://fonts.cdnfonts.com/css/patinio-basica"
       rel="stylesheet"
     />
+
   </head>
-  <body class="is-preload" style="background-color: black;">
+  <body style="font-family: ui-rounded, SF Pro Rounded, system-ui, san-serif;">
+    <div class="wrapper">
 
-    <!-- Wrapper -->
-    <div id="wrapper">
+      <div class="main">
 
-      <!-- Header -->
-      <header id="header" class="alt style2" style="background:black">
-        <nav>
-          <a href="#menu">Menu</a>
-        </nav>
-      </header>
+        <!--<section class="page1">
+          <div class="page_container">
+            <img src="images/log.png" alt="" style="height: 70px;" />
+            <h2
+              style="text-align: center;font-weight:300;width:80%;margin:auto"
+            class="mainhed">A social event platform for truly unique experiences. Attend events, make friends, earn rewards!</h2>
+            <div style="text-align: center;">
+              <img src="/images/event.png" alt="phones" style="height:70%;" />
+            </div>
+          </div>
+        </section>-->
 
-      <!-- Menu -->
-      <nav id="menu">
-        <ul class="links">
-          <li><a href="/host">Host</a></li>
-          <li><a href="/attend">Attend</a></li>
-          <li><a href="/rent">Rent</a></li>
-          <li><a href="/join">Careers</a></li>
-        </ul>
-        <ul class="actions stacked">
-          <li><a href="#" class="button fit">Join Waitlist</a></li>
-        </ul>
-      </nav>
+        <section class="page1"  style="background-color:#ff6b6b;">
+          <div style="width:100%;margin:auto;margin-top:5%" class="flexsec">
+            <div class="info-box pad-top">
+              
+            <h2
+              style="text-align: center;font-weight:300;width:80%;margin:auto;color:white"
+            class="mainhed">Loopin streamlines hosting. One stop shop for ticketing, bookings, promotions, and space rentals.</h2>
+                
+            
+              <div style="width: 100%;">
+                <a href="attend"><button>
+                    Learn More
+                  </button></a>
 
-      <!-- Banner -->
-      <section id="banner" class="major" style="background: black;">
-        <div class="inner">
-          <header class="major" style="background-color:none">
-            <a href="/" class="logo" style="margin-left: 0;"><img
-                src="/images/log.png"
-                style="height:80px;"
-              /></a>
-
-            <h1
-              style="border-bottom:none;margin-top: 2%;padding-left: 7px;"
-            ><span style="font-family: 'Patinio Basica';">Loopin streamlines hosting. </span><br />One stop shop for ticketing, bookings, promotions, and space rentals.
-
-            </h1>
-
-            <img src="/images/under2.png" class="mainvis" />
-            <!--<button data-tf-popup="kwOKZHEs">Survey for free promotion</button><script src="//embed.typeform.com/next/embed.js"></script>-->
-          </header>
-        </div>
-      </section>
-
-      <section
-        id="one"
-        style="max-width: 50em;
-    margin: auto;
-    background: black;
-    margin-bottom: 72px;padding:10px;margin-top:30px"
-      >
-
-        <!--<img src="/images/ws.png" style="width: 70%;margin-top:15px" id="imgmac"/>-->
-        <div id="imgmob">
-          <div id="info-boxes">
-            <div class="info-box" style="margin-left:0">
-              <header>
-                <h3>SIMPLE</h3>
-                <p>Manage guests, invites, ticketing, promotions, right from the app, with just a few clicks.</p>
-              </header>
-              <!--<p>Guestlist, Ticketing, and promotion, All in One. Set up an event and automatic ticketing all within a few clicks.</p>-->
-              <!--<footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
+              </div>
             </div>
             <div class="info-box">
+              <img src="/images/event.png" alt="phones" style="width:60%" />
+            </div>
+          </div>
+        </section>
+
+
+        
+
+        <section class="page2" style="background-color: black;overflow:scroll">
+          <div class="page_container">
+            <!--<h1
+                style="text-align: center;
+    margin: auto;width:80%"
+              >No Space? No Problem! Find the perfect location and rent it with Loopin.</h1>
+                      <img src="/images/under.png" class="mainvis" />-->
+
+              <div id="imgmob">
+          <div id="info-boxes">
+            <div class="info-boxex" style="margin-left:0">
+              <header>               
+                <img src="/images/es.svg" style="height: 35px;">
+                <h3>Simple</h3>
+                <p>Manage guests, invites, ticketing, promotions, right from the app, with just a few clicks.</p>
+              </header>
+
+            </div>
+            <!--<img src="/images/stag.png" style="width: 47%;
+    margin-left: 35px;">-->
+            <div class="info-boxe">
               <header>
-                <h3>SEAMLESS</h3>
+                <img src="/images/plan.svg" style="height: 35px;">
+                <h3>Seamless</h3>
                 <p>Loopin handles all transactions. Funds are available to use as soon as a purchase is made!</p>
               </header>
-              <!--<p>Whether its a small get-together or a larger meetup, Loopin handles all payments quickly and automatically. No more long lines and lost cash!</p>
-            <footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
+
             </div>
-          </div>
-          <div id="info-boxes" style="margin-top:50px">
-            <div class="info-box" style="margin-left:0">
+            <div class="info-boxe">
               <header>
-                <h3>INTEGRATED</h3>
-                <p>Find the perfect venue directly in the app. Order beverages and food at huge discounts and have them delivered straight to your event.</p>
-              </header>
-              <!--<p>Hosts can find the perfect venue on the Loopin app directly, whether that be a backyard, pool or larger more specialized venues.</p>
-            <footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
-            </div>
-			 <div class="info-box">
-              <header>
-                <h3>FLEXIBLE</h3>
+                <img src="/images/plan.svg" style="height: 35px;">
+                <h3>Flexible</h3>
                 <p>Host what you need. Private or community events. Car shows or birthday pool parties. You decide from start to end.</p>
               </header>
-              <!--<p>Hosts can find the perfect venue on the Loopin app directly, whether that be a backyard, pool or larger more specialized venues.</p>
-            <footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
+
             </div>
 
           </div>
-		   <div id="info-boxes" style="margin-top:50px">
-            <div class="info-box" style="margin-left:0">
+          <div id="info-boxes">
+            <div class="info-boxex">
               <header>
-                <h3>DASHBOARD</h3>
+                <img src="/images/es.svg" style="height: 35px;">
+                <h3>Integrated</h3>
+                <p>Find the perfect venue directly in the app. Order beverages and food at huge discounts and have them delivered straight to your event.</p>
+              </header>
+
+            </div>
+            <div class="info-boxe">
+              <header>
+                <img src="/images/es.svg" style="height: 35px;">
+                <h3>Dashboard</h3>
                 <p>Your data is seamlessly organized. View real time-stats, profits, and KPI’s to maximize your income.</p>
               </header>
-              <!--<p>Hosts can find the perfect venue on the Loopin app directly, whether that be a backyard, pool or larger more specialized venues.</p>
-            <footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
+
             </div>
-			 <div class="info-box" style="border: none;padding-left:0">
-            <header>
-              <img
-                src="/images/g.svg"
-                style="height:265px;margin-bottom:0px"
-              />
-            </header>
-            <!--<footer>
-								<a href="#" class="button special" style="margin-left: 0">More</a>
-							</footer>-->
-          </div>
+            <!--<img src="/images/stag.png" style="width: 47%;
+    margin-left: 35px;">-->
+            <div class="info-boxe" style="border: none;">
+              <header>
+
+                <!--
+                                                              <img src="/images/es.svg" style="height: 150px;">
+<h3>NO FEE's</h3>
+                <p>We don't charge hidden fee's for attending events. Attendee's pay zero in fee's to Loopin.</p>-->
+
+              </header>
+
+            </div>
+
 
           </div>
 
         </div>
 
-         <h1 style="margin-top:20%">We offer cutting edge features.</h1>
-        <img src="/images/under.png" class="mainvis" />
-        <h2><img src="/images/1.png" style="height:60px;margin-right:10px;" />
-       Our team works directly with hosts to ensure their events are a success. </h2>
-        <h2><img src="/images/2.png" style="height:60px;margin-right:10px" />
-          Payouts will be faster than ever. Get paid in minutes rather than weeks. 
-</h2>
-<h2><img src="/images/2.png" style="height:60px;margin-right:10px" />
-          No more unread texts, emails, and facebook messages. Message guests straight from the app.  
-</h2>
-      </section>
+           
+            
+          </div>
+        </section>
 
-      <section
-        id="one"
-        style="max-width: 50em;
-    margin: auto;
-    background: black;
-    margin-bottom: 72px;padding:10px;margin-top:30px"
-      >
-        <h1>Help Loopin for a reward!</h1>
-        <p>Complete this short survey to list your space for 1 year and pay $0
-          in rental fees. You will also get exclusive discounts once we launch!</p>
-        <div
-          data-tf-widget="Xcn53cuy"
-          data-tf-hide-headers
-          data-tf-hide-footer
-          style="width:75%;height:300px;color:#FFFFFF;"
-        ></div><script src="//embed.typeform.com/next/embed.js"></script>
-      </section>
 
-      <!--<div data-tf-widget="kwOKZHEs" style="width:100%;height:400px;color:#FFFFFF;"></div><script src="//embed.typeform.com/next/embed.js"></script>-->
 
-      <!-- Footer -->
-      <footer id="footer" style="background: black;">
-        <div class="inner">
-          <ul class="icons">
-            <li><a href="#" class="icon brands alt fa-twitter"><span
-                  class="label"
-                >Twitter</span></a></li>
-            <li><a href="#" class="icon brands alt fa-facebook-f"><span
-                  class="label"
-                >Facebook</span></a></li>
-            <li><a href="#" class="icon brands alt fa-instagram"><span
-                  class="label"
-                >Instagram</span></a></li>
-          </ul>
-          <ul class="copyright">
-          </ul>
-        </div>
-      </footer>
 
+        <section class="page2"  style="background-color: #FFE66D;">
+          <div style="width:100%;margin:auto;margin-top:5%" class="flexsec">
+            <div class="info-box pad-top">
+        <h1 style="color: black;" class="mainhede">
+       Direct, easy communication with hosts. </h1>
+        <h1 style="color: black;" class="mainhede">
+          Ultra-Fast payouts, minutes not weeks. 
+</h1>
+<h1 style="color: black;" class="mainhede">
+          Message guests straight from the app.  
+</h1>
+              <div style="width: 100%;">
+                <a href="attend"><button>
+                    Learn More
+                  </button></a>
+
+              </div>
+            </div>
+            
+            <div class="info-box">
+              <img src="/images/event2.png" alt="phones" style="width:60%" />
+            </div>
+          </div>
+        </section>
+
+        
+
+        <section class="page3">
+
+          <div class="page_container" style="margin-top: 50px;">
+            <h1  class="mainhede">Free event promotion for 6 months? Its quick, I promise :)</h1>
+            <Button>Survey</Button>
+          </div>
+           <div class="page_container footer" style="margin-top:40px;width:330px">
+              <div style="font-size: 20px;">
+                  <p>Home</p>
+                  <p>Attend</p>
+                  <p>Host</p>
+                  <p>Rent</p>
+                  <p>Careers</p>
+                  <p>© Loopin Inc.</p>
+              </div>
+          </div>
+        </section>
+
+      </div>
     </div>
-
-    <!-- Scripts -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/jquery.scrolly.min.js"></script>
-    <script src="/js/jquery.scrollex.min.js"></script>
-    <script src="/js/browser.min.js"></script>
-    <script src="/js/breakpoints.min.js"></script>
-    <script src="/js/util.js"></script>
-    <script src="/js/main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
