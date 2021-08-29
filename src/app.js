@@ -46,7 +46,7 @@ app.get("/info", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.render("landing", {
+  res.render("test2", {
   });
 });
 
